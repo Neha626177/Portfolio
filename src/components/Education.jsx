@@ -42,14 +42,14 @@ const Education = () => {
               Little Step High Secondary School <span className='text-lg'>(12th Grade)</span>
             </h2>
             <p>Science Stream</p>
-            <p>Percentage: 85%</p>
+            <p>Percentage: 97%</p>
           </div>
 
           {/* 10th Information */}
           <div>
-            <h2 className='font-semibold text-2xl'>10th Grade</h2>
-            <p>CBSE Board</p>
-            <p>Percentage: 90%</p>
+            <h2 className='font-semibold text-2xl'>Excellence Sunflower School</h2>
+            <p>State Board</p>
+            <p>Percentage: 96.6%</p>
           </div>
         </div>
 
