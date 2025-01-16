@@ -1,0 +1,18 @@
+
+
+
+/* 
+.aboutMe {
+box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+} */
+
+body.overflow-hidden {
+  overflow: hidden;
+}
+
+.box{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.EduText{
+text-shadow: 0 0 10px #FFFFFF, 7px -1px 5px rgba(77,74,13,0.15);
+}
