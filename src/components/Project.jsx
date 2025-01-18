@@ -16,7 +16,7 @@ const Project = () => {
             </div>
 
             {/* Card Section */}
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center items-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-center items-center">
 
                 {
                     data.map((items, index) =>( 
