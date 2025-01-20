@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Card = ({ title, desc, img }) => {
+const Card = ({ title, desc, img,link }) => {
     return (
         <>
-            <section className="flex justify-center items-center my-4">
-                <div className="w-[300px] h-[350px] bg-transparent cursor-pointer group perspective">
+            <section className=" flex justify-center items-center my-0">
+                <div className="w-[250px] h-[300px] bg-transparent cursor-pointer group perspective">
                     {/* Card Container */}
                     <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000 shadow-lg rounded-lg">
                         {/* Front Side */}
@@ -23,8 +23,8 @@ const Card = ({ title, desc, img }) => {
                                     {desc || "No description provided"}
                                 </p>
                                 <a
-                                    href="#"
-                                    className="bg-orange-500 px-4 py-2 text-sm font-semibold text-white rounded-full absolute -bottom-10 delay-100 duration-500 group-hover:bottom-10 group-hover:scale-100 scale-0 transition-all"
+                                    href={link}
+                                    className="bg-orange-500 px-3 py-2 sm:text-xs md:text-sm font-semibold text-white rounded-full absolute -bottom-10 delay-100 duration-500 group-hover:bottom-10 group-hover:scale-100 scale-0 transition-all"
                                 >
                                     Learn More
                                 </a>

@@ -1,24 +1,25 @@
 import React from 'react';
-import weatherImg from '../assets/projectImg/WeatherApp.png';
-import CalcuatorImg from '../assets/projectImg/Calculator.png';
-import CounterImg from '../assets/projectImg/Counter.png';
-import digitalClockImg from '../assets/projectImg/DigitalClock.png';
-import discordImg from '../assets/projectImg/Discord.png';
-import keepApp from '../assets/projectImg/KeepApp.png';
-import portfolioImg from '../assets/projectImg/image.png';
-import jockCreater from '../assets/projectImg/JockCreater.png';
-import LeapYear from '../assets/projectImg/LeapYear.png';
-import musicApp from '../assets/projectImg/MusicApp.png';
+import weatherImg from '../assets/projectImg/weatherApp.png';
+import CalcuatorImg from '../assets/projectImg/calculator.png';
+import CounterImg from '../assets/projectImg/counter.png';
+import digitalClockImg from '../assets/projectImg/digitalClock.png';
+// import discordImg from '../assets/projectImg/Discord.png';
+// import keepApp from '../assets/projectImg/KeepApp.png';
+import portfolioImg from '../assets/projectImg/portfolio.png';
+// import jockCreater from '../assets/projectImg/JockCreater.png';
+// import LeapYear from '../assets/projectImg/LeapYear.png';
+import musicApp from '../assets/projectImg/music.png';
 import razorpayImg from '../assets/projectImg/razorpay.png';
-import tictacteoImg from '../assets/projectImg/TicTacTeo.png';
-import timerImg from '../assets/projectImg/Timer.png';
-import toDo from '../assets/projectImg/toDo.png';
+import tictacteoImg from '../assets/projectImg/tictacteo.png';
+import timerImg from '../assets/projectImg/timer.png';
+import toDo from '../assets/projectImg/todo.png';
 
 const data = [
     {
         title: 'Portfolio',
         desc: 'A responsive portfolio website showcasing personal projects, skills, and achievements. Built using React.js, it features reusable components and a modern UI.',
         img: portfolioImg,
+        link:'https://portfolio-one-jet-73.vercel.app/'
     },
     {
         title: 'Weather App',
@@ -45,26 +46,26 @@ const data = [
         desc: 'A digital clock displaying real-time updates every second. Built using JavaScript, HTML, and CSS, with a clean and intuitive design.',
         img: digitalClockImg,
     },
-    {
-        title: 'Discord Clone',
-        desc: 'A frontend clone of Discord UI, developed using HTML and Tailwind CSS. It replicates the layout and responsiveness of the original design.',
-        img: discordImg,
-    },
-    {
-        title: 'Keep Note App',
-        desc: 'A note-keeping application inspired by Google Keep, built using React.js. Users can add, edit, and delete notes dynamically.',
-        img: keepApp,
-    },
-    {
-        title: 'Joke Creator',
-        desc: 'A fun app built using React.js that fetches random jokes via an API and displays them to the user with dynamic rendering.',
-        img: jockCreater,
-    },
-    {
-        title: 'Leap Year Checker',
-        desc: 'A simple app to check whether a given year is a leap year. Built using JavaScript, it validates user input and provides instant results.',
-        img: LeapYear,
-    },
+    // {
+    //     title: 'Discord Clone',
+    //     desc: 'A frontend clone of Discord UI, developed using HTML and Tailwind CSS. It replicates the layout and responsiveness of the original design.',
+    //     img: discordImg,
+    // },
+    // {
+    //     title: 'Keep Note App',
+    //     desc: 'A note-keeping application inspired by Google Keep, built using React.js. Users can add, edit, and delete notes dynamically.',
+    //     img: keepApp,
+    // },
+    // {
+    //     title: 'Joke Creator',
+    //     desc: 'A fun app built using React.js that fetches random jokes via an API and displays them to the user with dynamic rendering.',
+    //     img: jockCreater,
+    // },
+    // {
+    //     title: 'Leap Year Checker',
+    //     desc: 'A simple app to check whether a given year is a leap year. Built using JavaScript, it validates user input and provides instant results.',
+    //     img: LeapYear,
+    // },
     {
         title: 'Music App',
         desc: 'A basic music player app allowing users to play, pause, and switch between tracks. Developed using JavaScript, HTML, and CSS.',
