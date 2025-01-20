@@ -1,5 +1,5 @@
 import React from 'react';
-import weatherImg from '../assets/projectImg/weatherApp.png';
+// import weatherImg from '../assets/projectImg/weatherApp.png';
 import CalcuatorImg from '../assets/projectImg/calculator.png';
 import CounterImg from '../assets/projectImg/counter.png';
 import digitalClockImg from '../assets/projectImg/digitalClock.png';
@@ -21,11 +21,11 @@ const data = [
         img: portfolioImg,
         link:'https://portfolio-one-jet-73.vercel.app/'
     },
-    {
-        title: 'Weather App',
-        desc: 'A real-time weather application using JavaScript, HTML, and CSS. It provides current temperature, weather conditions, and more, powered by a weather API.',
-        img: weatherImg,
-    },
+    // {
+    //     title: 'Weather App',
+    //     desc: 'A real-time weather application using JavaScript, HTML, and CSS. It provides current temperature, weather conditions, and more, powered by a weather API.',
+    //     img: weatherImg,
+    // },
     {
         title: 'Razorpay Clone',
         desc: 'A static frontend clone of the Razorpay website created using HTML and Tailwind CSS, focusing on responsive design and layout replication.',
