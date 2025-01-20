@@ -1,19 +1,15 @@
 import React from 'react';
-// import weatherImg from '../assets/projectImg/weatherApp.png';
+
 import CalcuatorImg from '../assets/projectImg/calculator.png';
 import CounterImg from '../assets/projectImg/counter.png';
 import digitalClockImg from '../assets/projectImg/digitalClock.png';
-// import discordImg from '../assets/projectImg/Discord.png';
-// import keepApp from '../assets/projectImg/KeepApp.png';
 import portfolioImg from '../assets/projectImg/portfolio.png';
-// import jockCreater from '../assets/projectImg/JockCreater.png';
-// import LeapYear from '../assets/projectImg/LeapYear.png';
 import musicApp from '../assets/projectImg/music.png';
 import razorpayImg from '../assets/projectImg/razorpay.png';
 import tictacteoImg from '../assets/projectImg/tictacteo.png';
 import timerImg from '../assets/projectImg/timer.png';
 import toDo from '../assets/projectImg/todo.png';
-
+//add keepNote and password generator
 const data = [
     {
         title: 'Portfolio',
